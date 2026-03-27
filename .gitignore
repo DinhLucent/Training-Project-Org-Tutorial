@@ -1,5 +1,17 @@
-src/__pycache__/*
-*.DS_Store
-/.ipynb_checkpoints/*
-/data/*
-/.vscode/*
+__pycache__/
+*.pyc
+.env
+.venv/
+*.egg-info/
+dist/
+build/
+.DS_Store
+Thumbs.db
+
+# AI tool artifacts
+.agent/
+.agent-mem/
+.agents/
+.brainsync/
+.cursor/
+.windsurfrules
